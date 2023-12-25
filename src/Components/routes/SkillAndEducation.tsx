@@ -8,7 +8,7 @@ import {
   animated,
   useSpringRef,
 } from '@react-spring/web'
-import { skillIcon, educationIcon } from '../Data/SkillAndEducationData'
+import { skillIcon, educationIcon } from '../Data/SkillAndEducationData';
 import CodeIcon from '@mui/icons-material/Code';
 import SchoolIcon from '@mui/icons-material/School';
 import { useThemeContext } from '../theme/ThemContextProvider';

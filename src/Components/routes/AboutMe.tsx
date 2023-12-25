@@ -10,7 +10,7 @@ import {
 } from '@react-spring/web'
 import { useThemeContext } from '../theme/ThemContextProvider'
 import { GetBreakpoint } from '../Function/GetBreakpoint'
-import { AboutMeInfo } from '../Data/SkillAndEducationData'
+import { AboutMeInfo } from '../Data/AboutMeData'
 import MySelf_01 from '../../Images/MySelf_01.png';
 
 const AboutMe: FC = () => {

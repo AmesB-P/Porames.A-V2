@@ -21,7 +21,6 @@ import {
 
 import universityLogo from '../../Images/Universal-logo.png'
 import wabashaKelloggLogo from '../../Images/Wabasha-kellogg-logo.png'
-import MySelf_01 from '../../Images/MySelf_01.png';
 
 export const skillIcon = [
     {
@@ -136,53 +135,4 @@ export const educationIcon = [
     
 
 ]
-export const AboutMeInfo = [
-    {
-        index: 0,
-        name: `Hi!, I'm Bom.`,
-        //   description: '#a8edea → #fed6e3',
-        // css: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
-        // height: 150,
-        element: MySelf_01
-    },
-]
 
-
-// export default [
-//     {
-//         name: 'HTML',
-//         //   description: '#a8edea → #fed6e3',
-//         css: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
-//         height: 200,
-//         element: <HtmlIcon sx={{ width: "100%", height: "100%", padding: 2 }} />
-//     },
-//     {
-//         name: 'CSS',
-//         //   description: '#a8edea → #fed6e3',
-//         css: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)',
-//         height: 200,
-//         element: <CssIcon sx={{ width: "100%", height: "100%", padding: 2 }} />
-//     },
-//     {
-//         name: 'Javascript',
-//         description: '#e0c3fc → #8ec5fc',
-//         css: 'linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)',
-//         element: <JavascriptIcon sx={{ width: "100%", height: "100%", padding: 2}} />,
-//         height: 200,
-//     },
-//     {
-//         name: 'Typesrcript',
-//         description: '#f093fb → #f5576c',
-//         css: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-//         height: 200,
-//         element: <TypescriptSvgIconLight style={{ width: "100%", height: "100%" }} />,
-//         elementDarkTheme: <TypescriptSvgIconDark style={{ width: "100%", height: "100%" }} />,
-//     },
-//     // {
-//     //   name: 'HTML',
-//     //   description: '#a8edea → #fed6e3',
-//     //   css: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
-//     //   height: 200,
-//     // },
-
-// ]

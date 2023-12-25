@@ -27,7 +27,7 @@ type ThemeProps = {
       xl: useMediaQuery((theme: ThemeProps)=>theme.breakpoints.up('xl')),
     };
   
-    const currentBreakpoint = Object.entries(breakpoints).find(([key, matches]) => matches)?.[0] || 'xl';
+    const currentBreakpoint = Object.entries(breakpoints).find(([, matches]) => matches)?.[0] || 'xl';
   
     return currentBreakpoint;
   };
