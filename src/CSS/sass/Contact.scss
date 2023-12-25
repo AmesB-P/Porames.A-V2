@@ -1,0 +1,19 @@
+.background-smile-grid-container {
+    width: 100vw;
+    height: 100vh;
+    // background-color: $secondary-color;
+    // background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+
+    .smile-grid-container {
+        max-width: 800px;
+        width: 50vw;
+        margin: 0 auto;
+    }
+    
+}
