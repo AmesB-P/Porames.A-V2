@@ -8,11 +8,11 @@ import {
   animated,
   useSpringRef,
 } from '@react-spring/web'
-import { skillIcon, educationIcon } from '../Data/SkillAndEducationData';
 import CodeIcon from '@mui/icons-material/Code';
 import SchoolIcon from '@mui/icons-material/School';
 import { useThemeContext } from '../theme/ThemContextProvider';
 import { GetBreakpoint } from '../Function/GetBreakpoint';
+import { educationIcon, skillIcon } from '../Data/skillAndEducationData';
 
 const SkillAndEducation: FC = () => {
   const { mode, theme } = useThemeContext();
